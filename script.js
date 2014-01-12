@@ -7,6 +7,9 @@ $(function(){
         message: $('.userContent', item).text(),
         link: 'https://www.facebook.com/'+fbid[1]
       });
-    });  
+    });
+    setTimeout(function(){
+      location.reload();
+    }, 1000);
   }, 2000);
 });
