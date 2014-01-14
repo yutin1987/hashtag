@@ -8,11 +8,12 @@
     "tabs",
     "https://cdn.firebase.com/*",
     "https://www.facebook.com/*",
+    "http://54.199.154.93/*",
     "http://localhost:*/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.facebook.com/hashtag/devparty2014"],
+      "matches": ["https://www.facebook.com/hashtag/devparty2014", "https://www.facebook.com/hashtag/DevParty2014"],
       "js": [
         "jquery.js",
         "firebase.js",
